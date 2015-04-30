@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Fonts -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="fonts/opensanlight/stylesheet.css" type="text/css" charset="utf-8" />
+		<link href='http://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+		
+		<!-- Reset -->
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <!-- Main Stylesheets -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="styles/stylesheets/sass/all.css">
+        
+        <!-- Modernzier -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- ./start wrapper -->   
+    <div id="top-bar">
+    	<div class="row">
+	   	 	<!--<i class="fa fa-beer fa-5x"></i>-->
+	   	 	<i class="fa fa-star"></i>
+    	</div>
+    </div>
+    
+    <main id="wrapper">
+        <section id="pixel">
+        	<div class="row">
+        		<h1>Pixel</h1>
+        		<aside><i class="fa fa-tag"></i> font-absolute</aside>
+        		<div class="title-wrap"><i class="fa fa-thumbs-o-up"></i><div class="br-title">Pros</div></div>
+        		<p>Better control and predictability across all browsers.
+        		   Designers still think in pixels. Consistent rendering.
+        		</p>
+        		<div class="title-wrap"><i class="fa fa-thumbs-o-down"></i><div class="br-title">Cons</div></div>
+        		<p>Does not scale for smaller devices or for users who are visually-impaired. 
+        		   Becoming more difficult to define, especially in context of reference points and very high resolution screens.
+        		</p>
+        		<div class="br-link">
+        			<figure><i class="fa fa-external-link"></i><a href="http://www.w3.org/Style/Examples/007/units.en.html#font-size" target="_blank">W3</a></figure>
+        			<figure><i class="fa fa-external-link"></i><a href="http://www.w3.org/TR/css3-values/#reference-pixel" target="_blank">Reference Pixel</a></figure>
+        		</div>
+        	</div>
+        	
+        </section><!-- ./end PIXEL section -->
+        
+        <section id="em">
+        	<div class="row">
+        		<h1>Em</h1>
+        		<aside><i class="fa fa-tag"></i> font-relative</aside>
+        		<div class="title-wrap"><i class="fa fa-thumbs-o-up"></i><div class="br-title">Pros</div></div>
+        		<p>Responsive and scalable for smaller devices and accessible for the visually-impaired.
+        		   Usage: the body tag's font-size is typically set to 62.5% (so that 1em = 10px).
+        		</p>
+        		<div class="title-wrap"><i class="fa fa-thumbs-o-down"></i><div class="br-title">Cons</div></div>
+        		<p>Causes odd compounding issue with child elements, unless you reset the 
+        		   em for the child element. Not as predictable across browsers and devices.
+        		</p>
+        		<div class="br-link">
+        			<figure><i class="fa fa-external-link"></i><a href=" http://www.afb.org/info/accessibility/creating-accessible-websites/tips-and-tricks/235" target="_blank">AFB</a></figure> 
+        			<figure><i class="fa fa-external-link"></i><a href="http://www.w3.org/TR/WCAG20-TECHS/C14.html" target="_blank">W3</a></figure>
+        		</div>
+        	</div>
+        
+        </section> <!-- ./end EM section -->
+        
+        <section id="rem">
+        	<div class="row">
+        		<h1>Rem</h1>
+        		<aside><i class="fa fa-tag"></i> font-relative <i class="fa fa-tag two"></i> CSS3</aside>
+        		<div class="title-wrap"><i class="fa fa-thumbs-o-up"></i><div class="br-title">Pros</div></div>
+        		<p>The rem ("root em") unit has the same Pros as the em, but doesn't have 
+					the compounding issue with child elements.	
+					The html tag's font-size is typically set to 62.5% (so that 1rem = 10px).
+        		</p>
+        		<div class="title-wrap"><i class="fa fa-thumbs-o-down"></i><div class="br-title">Cons</div></div>
+        		<p>Browser support isn't as widespread as em and px. If you use rem, you will probably need some kind of pixel back-up 
+        			for those browsers. Not as predictable across browsers and devices.
+        		</p>
+        		<div class="br-link">
+        			<figure><i class="fa fa-external-link"></i>
+        				<a href=" http://www.afb.org/info/accessibility/creating-accessible-websites/tips-and-tricks/235" target="_blank">AFB</a>
+        			</figure>  
+        			<figure><i class="fa fa-external-link"></i>
+        				<a href="http://www.w3.org/Style/Examples/007/units.en.html#font-size" target="_blank">W3</a>
+        			</figure>
+        			<figure><i class="fa fa-external-link"></i>
+        				<a href="http://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/" target="_blank">Rem Sass Mixin</a>
+        			</figure>
+        			
+        			
+        		</div>
+        	</div>
+       
+        </section><!-- ./end REM section -->
+        
+     </main> <!-- ./end wrapper -->
+      
+     <div id="footer">
+	     <div class="row">
+	     	<div id="left">
+		     	<a href="http://www.w3.org/html/logo/">
+				 	<img src="http://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" 
+				 	title="HTML5 Powered">
+				</a>
+	     	</div>
+	     	<div id="right">
+	     		<div id="fa-footer"><i class="fa fa-circle-o"></i>Icons by Font-Awesome</div>
+	     		<div id="boiler"><i class="fa fa-star"></i>HTMl5 Boilerplate</div>
+	     		<div id="sass"><i class="fa fa-bolt"></i>Powered by SASS & Compass</div>
+	     	</div>
+	     
+	     </div>
+     </div> <!-- ./end Footer -->
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

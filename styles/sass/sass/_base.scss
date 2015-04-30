@@ -1,0 +1,96 @@
+body {
+	font-size: 62.5%;
+	font-family: $sansLight;
+}
+
+body, 
+html {
+	width: 100%;
+}
+
+/** Paragraph **/
+
+p {
+	font-size: 2.8em;
+	margin: 0px;
+	
+}
+
+/** Layout **/
+
+section {
+	width: 100%;
+	min-height: 400px;
+	height: 100%;
+}
+
+aside {
+	font-size: 1.8em;
+}
+
+figure {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.row {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 25px 25px 80px 25px;
+}
+
+/** Headers & Titles **/
+
+#{headings()} {
+	margin: 0px;
+	font-family: $lobster;
+}
+
+h1 {
+	font-size: 5.0em;
+}
+
+#title-wrap {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+.br-title {
+	margin-top: 30px;
+	font-size: 3.5em;
+	text-transform: uppercase;
+	font-family: $medula;
+	display: inline-block;
+}
+
+/** Background Colors **/
+
+$brands: pixel, em, rem;
+$val: #faae50, #ed6a45, #ced661;
+@for $i from 1 through length($brands) {
+  section##{nth($brands, $i)} {
+    background-color: nth($val, $i);
+  }
+}
+
+/** Font Awesome Images **/
+
+#top-bar .fa-star {
+	display:block;
+	vertical-align: middle;
+	color: $em;
+	font-size: 7.5em;
+	position:relative;
+}
+
+.fa-thumbs-o-up, .fa-thumbs-o-down {
+	font-size: 2.5em;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+/** Misc **/
+.br-link {
+	font-size: 2.0em;
+	margin-top: 30px;
+}

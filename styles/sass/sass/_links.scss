@@ -1,0 +1,38 @@
+a {
+	text-decoration: none;
+}
+
+nav {
+	float: right;
+	vertical-align: top;
+	padding-right: 40px;
+	ul {
+		margin-top: 0px;
+	}
+	li {
+		display: inline;
+		padding-right: 15px;
+	}
+	a {
+		color: #fff;
+		font-size: 3.5em;
+		&:hover {
+			color: $pixel;
+		}
+	}
+}
+
+figure {
+	a {
+		color: #000;
+	}
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+aside {
+	.fa.two {
+		padding-left: 10px;
+	}
+}

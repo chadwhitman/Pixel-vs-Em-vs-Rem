@@ -1,0 +1,235 @@
+/* line 1, ../../sass/sass/_base.scss */
+body {
+  font-size: 62.5%;
+  font-family: "open_sansCnLtIt", Arial, sans-serif;
+}
+
+/* line 7, ../../sass/sass/_base.scss */
+body,
+html {
+  width: 100%;
+}
+
+/** Paragraph **/
+/* line 13, ../../sass/sass/_base.scss */
+p {
+  font-size: 2.8em;
+  margin: 0px;
+}
+
+/** Layout **/
+/* line 21, ../../sass/sass/_base.scss */
+section {
+  width: 100%;
+  min-height: 400px;
+  height: 100%;
+}
+
+/* line 27, ../../sass/sass/_base.scss */
+aside {
+  font-size: 1.8em;
+}
+
+/* line 31, ../../sass/sass/_base.scss */
+figure {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 36, ../../sass/sass/_base.scss */
+.row {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 25px 25px 80px 25px;
+}
+
+/** Headers & Titles **/
+/* line 44, ../../sass/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  font-family: "Lobster Two", cursive, Arial, sans-serif;
+}
+
+/* line 49, ../../sass/sass/_base.scss */
+h1 {
+  font-size: 5.0em;
+}
+
+/* line 53, ../../sass/sass/_base.scss */
+#title-wrap {
+  display: inline-block;
+  margin-top: 35px;
+}
+
+/* line 58, ../../sass/sass/_base.scss */
+.br-title {
+  margin-top: 30px;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-family: "Medula One", cursive;
+  display: inline-block;
+}
+
+/** Background Colors **/
+/* line 71, ../../sass/sass/_base.scss */
+section#pixel {
+  background-color: #faae50;
+}
+
+/* line 71, ../../sass/sass/_base.scss */
+section#em {
+  background-color: #ed6a45;
+}
+
+/* line 71, ../../sass/sass/_base.scss */
+section#rem {
+  background-color: #ced661;
+}
+
+/** Font Awesome Images **/
+/* line 78, ../../sass/sass/_base.scss */
+#top-bar .fa-star {
+  display: block;
+  vertical-align: middle;
+  color: #ed6a45;
+  font-size: 7.5em;
+  position: relative;
+}
+
+/* line 86, ../../sass/sass/_base.scss */
+.fa-thumbs-o-up, .fa-thumbs-o-down {
+  font-size: 2.5em;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/** Misc **/
+/* line 93, ../../sass/sass/_base.scss */
+.br-link {
+  font-size: 2.0em;
+  margin-top: 30px;
+}
+
+/* line 1, ../../sass/sass/_top-bar.scss */
+#top-bar {
+  width: 100%;
+  height: 95px;
+  background-color: #000;
+}
+/* line 5, ../../sass/sass/_top-bar.scss */
+#top-bar .row {
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* line 11, ../../sass/sass/_top-bar.scss */
+#spinWrap {
+  position: relative;
+}
+
+/* line 15, ../../sass/sass/_top-bar.scss */
+#top-image {
+  text-align: center;
+}
+/* line 17, ../../sass/sass/_top-bar.scss */
+#top-image img {
+  border-radius: 150px;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 0 8px;
+  z-index: 999;
+  position: absolute;
+  top: 21px;
+  margin-left: -23px;
+}
+
+/* line 1, ../../sass/sass/_footer.scss */
+#footer {
+  width: 100%;
+  min-height: 160px;
+  background-color: #000;
+}
+/* line 5, ../../sass/sass/_footer.scss */
+#footer #left {
+  float: left;
+}
+/* line 8, ../../sass/sass/_footer.scss */
+#footer #right {
+  float: right;
+}
+
+/* line 13, ../../sass/sass/_footer.scss */
+#fa-footer, #boiler, #sass {
+  font-size: 1.9em;
+  font-family: "open_sansCnLtIt", Arial, sans-serif;
+  color: #faae50;
+}
+
+/* line 19, ../../sass/sass/_footer.scss */
+#fa-footer {
+  color: #faae50;
+}
+
+/* line 23, ../../sass/sass/_footer.scss */
+#boiler {
+  color: #ed6a45;
+}
+
+/* line 27, ../../sass/sass/_footer.scss */
+#sass {
+  color: #ced661;
+}
+
+/* line 31, ../../sass/sass/_footer.scss */
+.fa.fa-circle-o, .fa.fa-star, .fa.fa-heart {
+  margin-right: 10px;
+}
+
+/* line 35, ../../sass/sass/_footer.scss */
+.fa.fa-bolt {
+  margin-right: 17px;
+}
+
+/* line 1, ../../sass/sass/_links.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 5, ../../sass/sass/_links.scss */
+nav {
+  float: right;
+  vertical-align: top;
+  padding-right: 40px;
+}
+/* line 9, ../../sass/sass/_links.scss */
+nav ul {
+  margin-top: 0px;
+}
+/* line 12, ../../sass/sass/_links.scss */
+nav li {
+  display: inline;
+  padding-right: 15px;
+}
+/* line 16, ../../sass/sass/_links.scss */
+nav a {
+  color: #fff;
+  font-size: 3.5em;
+}
+/* line 19, ../../sass/sass/_links.scss */
+nav a:hover {
+  color: #faae50;
+}
+
+/* line 26, ../../sass/sass/_links.scss */
+figure a {
+  color: #000;
+}
+/* line 29, ../../sass/sass/_links.scss */
+figure:hover {
+  text-decoration: underline;
+}
+
+/* line 35, ../../sass/sass/_links.scss */
+aside .fa.two {
+  padding-left: 10px;
+}

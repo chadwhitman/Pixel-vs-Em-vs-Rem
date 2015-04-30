@@ -1,0 +1,39 @@
+#footer {
+	width: 100%;
+	min-height: 160px;
+	background-color: #000;
+	#left {
+		float: left;
+	}
+	#right {
+		float: right;
+	}
+}
+
+#fa-footer, #boiler, #sass {
+	font-size: 1.9em;
+	font-family: $sansLight;
+	color: $pixel;
+}
+
+#fa-footer {
+	color: $pixel;
+}
+
+#boiler {
+	color: $em;
+}
+
+#sass {
+	color: $rem;
+}
+
+.fa.fa-circle-o, .fa.fa-star, .fa.fa-heart {
+	margin-right: 10px;
+}
+
+.fa.fa-bolt {
+	margin-right: 17px;
+}
+
+
