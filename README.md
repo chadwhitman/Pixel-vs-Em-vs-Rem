@@ -1,2 +1,2 @@
-# units
-Currently testing out my "units" website. It currently sits here: http://units.mintheme.net and I want to move it here...eventually.
+# Units
+The pros and cons of using em, rem and pixels. This readme is a work in progress.
