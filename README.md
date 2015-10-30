@@ -1,2 +1,7 @@
-# Units
-The pros and cons of using em, rem and pixels. This readme is a work in progress.
+### Px vs Em vs Rem
+
+####Description
+This website touches on a few differences between using em, rem and pixels in development.
+
+####Helpful Links
+- <a href="http://units.mintheme.net">http://units.mintheme.net</a>
