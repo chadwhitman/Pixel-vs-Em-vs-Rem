@@ -1,4 +1,4 @@
-### Px vs Em vs Rem vs Viewport
+### Px vs Em vs Rem
 
 ####Description
 This website touches on a few differences between using em, rem and pixels in development.
